@@ -34,16 +34,17 @@
 **Obs:** Ao finalizar a seleção, confirme o ip para geração da página clicando no botão enter.
 
 #
-4. Reprodução da página 
+4. Reprodução da página 📝
 - Insira no campo para clone : http://instagram.com , em seguida clique enter.
 - Abra o navegador anônimo, e acesse a página utilizando o ip confirmado no passo anterior.
 - Verifique no terminal a movimentação reportada.
 
 #
-5. Conferindo a Captura de Credenciais
+5. Conferindo a Captura de Credenciais 🎯
 - Na página reproduzida, insira login e senha 
 - Em seguida, verifique no terminal a captura das credenciais digitadas.
 
 ### Resultados Obtidos
 
-![Alt text](./passwd.png "Optional title")
+![Credenciais_KALI](https://github.com/user-attachments/assets/a4245972-a434-4b4d-8827-92a79e119c1b)
+
