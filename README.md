@@ -1,21 +1,49 @@
-# Phishing para captura de senhas do Facebook
+# Desafio BootCamp#2 - Pescando Credenciais 🐟
 
-### Ferramentas
+### Ferramentas Utilizadas :
 
-- Kali Linux
-- setoolkit
+🐉 Kali Linux
 
-### Configurando o Phishing no Kali Linux
+⚙️ Recurso de Ferramentas **Setoolkit**
 
-- Acesso root: ``` sudo su ```
-- Iniciando o setoolkit: ``` setoolkit ```
-- Tipo de ataque: ``` Social-Engineering Attacks ```
-- Vetor de ataque: ``` Web Site Attack Vectors ```
-- Método de ataque: ```Credential Harvester Attack Method ```
-- Método de ataque: ``` Site Cloner ```
-- Obtendo o endereço da máquina: ``` ifconfig ```
-- URL para clone: http://www.facebook.com
+### URL de reprodução semelhante : http://www.instagram.com
 
-### Resutados
+
+### Siga o passo a passo : 
+
+1. Inicialização do Sistema Operacional Kali Linux
+- Credenciais de Acesso(Individual): Login/Senha
+
+#
+2. Avance uma casa: Dama ⏩ Rainha
+- Abra o terminal e digite no prompt o comando : **sudo su**
+
+#
+3. Acessando e Configurando Ferramentas 👩‍💻
+- Dentro do terminal, digite : setoolkit
+
+
+  Após a inicialização, selecione no menu as opções: 
+  
+  ☑️ Tipo de Ataque =  Social-Engineering Attacks 
+  
+  ☑️ Vetor de Ataque = Web Site Attack Vectors
+  
+  ☑️ Metódo de Ataque = Credential Harvester Attack Method / Site Cloner
+
+**Obs:** Ao finalizar a seleção, confirme o ip para geração da página clicando no botão enter.
+
+#
+4. Reprodução da página 
+- Insira no campo para clone : http://instagram.com , em seguida clique enter.
+- Abra o navegador anônimo, e acesse a página utilizando o ip confirmado no passo anterior.
+- Verifique no terminal a movimentação reportada.
+
+#
+5. Conferindo a Captura de Credenciais
+- Na página reproduzida, insira login e senha 
+- Em seguida, verifique no terminal a captura das credenciais digitadas.
+
+### Resultados Obtidos
 
 ![Alt text](./passwd.png "Optional title")
